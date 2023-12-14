@@ -1,7 +1,7 @@
 import { NAVBAR } from "@/data/navBar";
 const NavBar = () => {
   return (
-    <div className="bg-soft py-5 px-5 mt-5 pr-20 flex justify-between items-center">
+    <div className="sticky z-[90] bg-soft py-5 px-5 mt-5 pr-20 flex justify-between items-center">
       <div>
         <span>Dashboard</span>
       </div>
