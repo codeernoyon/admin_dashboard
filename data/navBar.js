@@ -5,16 +5,16 @@ export const NAVBAR = [
   {
     id: 1,
     path: "/message",
-    icon: <MdOutlineMessage size={20} />,
+    icon: <MdOutlineMessage size={23} />,
   },
   {
     id: 2,
     path: "/notification",
-    icon: <MdNotifications size={20} />,
+    icon: <MdNotifications size={23} />,
   },
   {
     id: 3,
     path: "/dashboard",
-    icon: <BiWorld size={20} />,
+    icon: <BiWorld size={23} />,
   },
 ];

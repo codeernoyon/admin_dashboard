@@ -4,13 +4,13 @@ import Sidebar from "../ui/dashboard/sidebar/sidebar";
 
 const Layout = ({ children }: any) => {
   return (
-    <div className="min-h-screen min-w-screen flex gap-2">
-      <div className="rounded-t-[10px] w-[25%]">
+    <div className="min-h-screen w-screen flex">
+      <div className="w-[18%]">
         <Sidebar />
       </div>
-      <div className="flex-1 flex-col">
+      <div className="relative flex-1 overflow-x-hidden text-slate-100">
         <NavBar />
-        <div className="flex-1 ">{children}</div>
+        <div>{children}</div>
         <Footer />
       </div>
     </div>

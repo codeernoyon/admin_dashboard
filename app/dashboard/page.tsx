@@ -1,9 +1,9 @@
-import Clients from "../ui/dashboard/clients/clients";
+import TopBer from "../ui/dashboard/topber/TopBer";
 
 const Dashboard = () => {
   return (
-    <div className="bg-soft mt-2 rounded-t-md w-[70%]">
-      <Clients />
+    <div className=" px-5 h-full pt-[100px]">
+      <TopBer />
     </div>
   );
 };

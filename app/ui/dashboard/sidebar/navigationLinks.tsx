@@ -1,16 +1,32 @@
+"use client";
 import { SIDEBAR } from "@/data/sideBar";
+import { usePathname, useRouter } from "next/navigation";
 const NavigationLinks = () => {
+  const path = usePathname();
+  const navigation = useRouter();
+  const handleNavigation = (pathName: any) => {
+    if (pathName === "dashboard") {
+      navigation.push("/dashboard");
+    } else {
+      navigation.push(`/dashboard/${pathName}`);
+    }
+  };
   return (
     <div className="mt-5">
       <ul>
         {SIDEBAR.map((item, index) => (
           <li key={index} className="text-sm text-slate-400">
             <span>{item.title}</span>
-            <ul className="text-[17px] text-slate-300 capitalize mt-3">
+            <ul className="text-[16px] capitalize mt-3">
               {item?.items.map((link, index) => (
                 <li
                   key={index}
-                  className={`px-3 py-3 rounded-md hover:bg-slate-700 cursor-pointer transition-all duration-300 my-2 flex items-center gap-2`}
+                  className={`px-3 py-3 rounded-md hover:bg-slate-700 cursor-pointer transition-all duration-300 my-2 flex items-center gap-2 ${
+                    path.slice(path.lastIndexOf("/") + 1) === link?.title
+                      ? "text-stone-200 bg-slate-700"
+                      : "text-slate-400 bg-transparent"
+                  }`}
+                  onClick={() => handleNavigation(link.title)}
                 >
                   {link.icon}
                   <span>{link.title}</span>

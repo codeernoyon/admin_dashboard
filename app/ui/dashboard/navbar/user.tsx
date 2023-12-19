@@ -7,14 +7,16 @@ const User = () => {
       <Image
         src="/avatars/3.png"
         alt="image"
-        width={60}
-        height={60}
+        width={40}
+        height={40}
         className="rounded-full"
       />
       {/* name */}
       <div className="flex flex-col">
-        <span className="text-xl capitalize">noyon islam</span>
-        <span className="text-sm text-slate-400 capitalize">administrator</span>
+        <span className="text-[16px] capitalize">noyon islam</span>
+        <span className="text-[12px] text-slate-400 capitalize">
+          administrator
+        </span>
       </div>
     </div>
   );

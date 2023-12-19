@@ -13,9 +13,20 @@ export const SIDEBAR = [
         id: 1,
         title: "dashboard",
         icon: <MdDashboard size={20} />,
+        navigatePath: "/dashboard",
       },
-      { id: 2, title: "users", icon: <FaRegUser size={20} /> },
-      { id: 3, title: "transactions", icon: <CiBadgeDollar size={23} /> },
+      {
+        id: 2,
+        title: "users",
+        icon: <FaRegUser size={20} />,
+        navigatePath: "dashboard/users",
+      },
+      {
+        id: 3,
+        title: "transactions",
+        icon: <CiBadgeDollar size={23} />,
+        navigatePath: "dashboard/transactions",
+      },
     ],
   },
   {
