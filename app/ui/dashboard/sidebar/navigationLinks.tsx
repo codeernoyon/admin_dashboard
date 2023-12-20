@@ -21,9 +21,9 @@ const NavigationLinks = () => {
               {item?.items.map((link, index) => (
                 <li
                   key={index}
-                  className={`px-3 py-3 rounded-md hover:bg-slate-700 cursor-pointer transition-all duration-300 my-2 flex items-center gap-2 ${
+                  className={`px-3 py-3 rounded-md hover:bg-soft cursor-pointer transition-all duration-300 my-2 flex items-center gap-2 ${
                     path.slice(path.lastIndexOf("/") + 1) === link?.title
-                      ? "text-stone-200 bg-slate-700"
+                      ? "text-slate-200 bg-soft"
                       : "text-slate-400 bg-transparent"
                   }`}
                   onClick={() => handleNavigation(link.title)}
