@@ -4,7 +4,7 @@ const Cards = () => {
   return (
     <div className="flex items-center xl:justify-between py-8 group flex-wrap gap-5 xl:gap-0 w-full">
       {CARDS?.map((item, index) => (
-        <div key={index}>
+        <div key={index} className="w-[98%] md:w-[48%] xl:w-[24%] ">
           <Card data={item} />
         </div>
       ))}
