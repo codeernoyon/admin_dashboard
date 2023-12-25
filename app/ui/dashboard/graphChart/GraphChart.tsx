@@ -11,7 +11,7 @@ const GraphChart = () => {
     setType(data);
   };
   return (
-    <CardLayout className="lg:w-[70%]">
+    <CardLayout className="lg:w-[65%]">
       <div className="">
         {/* top */}
         <div className="flex justify-between items-center py-3 px-5">
@@ -20,16 +20,16 @@ const GraphChart = () => {
             {GRAPHFILTER?.map((item, index) => (
               <li
                 key={index}
-                className={`bg-blue-900 bg-opacity-40 p-2 px-3 rounded-md   cursor-pointer transition-all duration-300 ${
+                className={`bg-blue-900 p-2 px-3 rounded-md cursor-pointer transition-all duration-300 ${
                   index === 3
-                    ? "text-mainBg hover:bg-mainBg hover:text-slate-300"
-                    : "text-blue-500 hover:bg-blue-600 hover:text-slate-300"
+                    ? "text-mainBg hover:bg-mainBg hover:text-slate-100"
+                    : "text-blue-500 hover:bg-blue-600 hover:text-slate-100"
                 } ${
                   type === item.title &&
                   `${
                     item.title === "1Y"
-                      ? "bg-mainBg text-slate-300 bg-opacity-100"
-                      : "bg-blue-600 text-slate-300 bg-opacity-100"
+                      ? "bg-mainBg text-slate-100 bg-opacity-100"
+                      : "bg-blue-500 text-slate-100 bg-opacity-100"
                   }`
                 }`}
                 onClick={() => handleTimeFilter(item.title)}

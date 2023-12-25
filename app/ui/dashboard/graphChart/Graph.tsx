@@ -22,7 +22,7 @@ const CustomTooltip = ({ active, payload, label }: any) => {
         <div className="flex flex-col gap-1 py-1">
           <div className="px-3 flex items-center gap-2 text-sm">
             <div className={`h-3 w-3 bg-[#4382f3] rounded-full`}></div>
-            <p>{`${payload[0].dataKey} : ${payload[0].value}k`}</p>
+            <p>{`${payload[0].dataKey} : ${payload[0].value}`}</p>
           </div>
           <div className="px-3 flex items-center gap-2 text-sm">
             <div className={`h-3 w-3 bg-[#8162c1] rounded-full`}></div>
@@ -30,7 +30,7 @@ const CustomTooltip = ({ active, payload, label }: any) => {
           </div>
           <div className="px-3 flex items-center gap-2 text-sm">
             <div className={`h-3 w-3 bg-[#880AB5] rounded-full`}></div>
-            <p>{`${payload[2].dataKey} : ${payload[2].value}k`}</p>
+            <p>{`${payload[2].dataKey} : ${payload[2].value}`}</p>
           </div>
         </div>
       </div>
@@ -66,11 +66,11 @@ const Graph = () => {
   };
 
   return (
-    <div className="py-10">
+    <div className="py-10 min-h-[400px]">
       <ResponsiveContainer width="100%" aspect={2}>
         <ComposedChart
           data={GRAPHVALUE}
-          barCategoryGap={15}
+          barCategoryGap={16}
           margin={{ top: 0, right: 30, left: 0, bottom: 0 }}
         >
           <XAxis dataKey="title" interval={"preserveStartEnd"} />
@@ -89,12 +89,6 @@ const Graph = () => {
             legendType="circle"
             strokeOpacity={stateOpacity.Order}
           />
-          <Bar
-            dataKey="Earning"
-            fill="#8162c1"
-            legendType="circle"
-            fillOpacity={stateOpacity.Earning}
-          />
 
           <Line
             type="monotone"
@@ -105,6 +99,12 @@ const Graph = () => {
             activeDot={{ r: 5 }}
             legendType="circle"
             strokeOpacity={stateOpacity.Refunds}
+          />
+          <Bar
+            dataKey="Earning"
+            fill="#8162c1"
+            legendType="circle"
+            fillOpacity={stateOpacity.Earning}
           />
         </ComposedChart>
       </ResponsiveContainer>
