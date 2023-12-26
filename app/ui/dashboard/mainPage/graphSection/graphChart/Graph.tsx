@@ -61,7 +61,6 @@ const Graph = () => {
   };
 
   const handleMouseLeave = (o: any) => {
-    const { dataKey } = o;
     setOpacity({ ...stateOpacity, Earning: 1, Order: 1, Refunds: 1 });
   };
 

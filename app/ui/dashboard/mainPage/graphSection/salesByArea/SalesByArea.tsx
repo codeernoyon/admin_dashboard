@@ -1,9 +1,9 @@
 import { SALESBYLOCATION } from "@/data/salesByLocations";
 import Button from "@/utils/Button";
-import CardLayout from "../cardLayout/cardLayout";
+import CardLayout from "../../boxLayout/cardLayout";
 const SalesByArea = () => {
   return (
-    <div className="w-full xl:flex-1 !overflow-y-hidden ">
+    <div className="w-full xl:flex-1 box-border">
       <CardLayout className="min-h-[400px]">
         <div className="border-b flex items-center p-5 border-slate-600 justify-between">
           <h2 className="text-[18px]">Sales By Locations</h2>

@@ -1,7 +1,7 @@
-import Cards from "../ui/dashboard/cards/Cards";
-import GraphChart from "../ui/dashboard/graphChart/GraphChart";
-import SalesByArea from "../ui/dashboard/salesByArea/SalesByArea";
-import SalesSection from "../ui/dashboard/salesSection/SalesSection";
+import Cards from "../ui/dashboard/mainPage/cards/Cards";
+import GraphChart from "../ui/dashboard/mainPage/graphSection/graphChart/GraphChart";
+import SalesByArea from "../ui/dashboard/mainPage/graphSection/salesByArea/SalesByArea";
+import SalesSection from "../ui/dashboard/mainPage/salesSection/SalesSection";
 import TopBer from "../ui/dashboard/topber/TopBer";
 
 const Dashboard = () => {

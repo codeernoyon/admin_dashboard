@@ -1,4 +1,4 @@
-import CardLayout from "../cardLayout/cardLayout";
+import CardLayout from "../boxLayout/cardLayout";
 
 const Card = ({ data }: any) => {
   return (

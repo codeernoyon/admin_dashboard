@@ -1,7 +1,7 @@
 "use client";
 import { GRAPHFILTER } from "@/data/graph";
 import { useState } from "react";
-import CardLayout from "../cardLayout/cardLayout";
+import CardLayout from "../../boxLayout/cardLayout";
 import Graph from "./Graph";
 import GraphDetails from "./GraphDetails";
 const GraphChart = () => {

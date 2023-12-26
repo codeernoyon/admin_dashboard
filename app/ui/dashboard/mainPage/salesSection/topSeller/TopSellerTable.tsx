@@ -5,7 +5,7 @@ const TopSellerTable = ({ data }: any) => {
   return (
     <table className="capitalize w-full ">
       <tbody>
-        {data.map((item, index) => (
+        {data.map((item: any, index: any) => (
           <tr key={index} className="border-t-[1px] border-[#545b5d] ">
             <td className="px-2 flex items-center gap-2 py-2 w-[200px] md:w-fit">
               <Image
