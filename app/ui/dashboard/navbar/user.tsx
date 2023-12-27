@@ -12,7 +12,7 @@ const User = () => {
         className="rounded-full"
       />
       {/* name */}
-      <div className="flex flex-col">
+      <div className=" flex-col hidden md:flex">
         <span className="text-[16px] capitalize">noyon islam</span>
         <span className="text-[12px] text-slate-400 capitalize">
           administrator

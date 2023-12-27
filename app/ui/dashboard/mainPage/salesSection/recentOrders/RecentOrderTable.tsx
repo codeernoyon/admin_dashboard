@@ -10,7 +10,7 @@ const RecentOrderTable = () => {
           <th>customer</th>
           <th>product</th>
           <th>amount</th>
-          <th>status</th>
+          <th className="px-3">status</th>
           <th>vendor</th>
         </tr>
       </thead>
@@ -22,7 +22,7 @@ const RecentOrderTable = () => {
               RECENTORDER.length === index + 1 && "border-b"
             }`}
           >
-            <td className="pl-5 text-mainBg">
+            <td className="px-5 text-mainBg">
               <span>
                 #{item.orderId}
                 {index}
@@ -39,7 +39,7 @@ const RecentOrderTable = () => {
               <span>{item?.customer}</span>
             </td>
             <td>
-              <div className="w-[70px] md:w-fit">
+              <div className="w-[150px] md:w-fit">
                 <span>{item?.product}</span>
               </div>
             </td>
@@ -48,7 +48,7 @@ const RecentOrderTable = () => {
                 <span>${item?.amount}</span>
               </div>
             </td>
-            <td>
+            <td className="px-3">
               <div
                 className={`w-[80px] md:w-fit bg-slate-800 px-3 rounded-md ${
                   item?.status === "Paid" && " text-green-500"
@@ -60,7 +60,7 @@ const RecentOrderTable = () => {
               </div>
             </td>
             <td>
-              <div className="">
+              <div className="w-[160px] md:w-fit">
                 <span>{item?.vendor}</span>
               </div>
             </td>

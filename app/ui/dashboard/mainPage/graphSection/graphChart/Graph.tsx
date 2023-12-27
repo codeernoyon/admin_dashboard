@@ -66,7 +66,7 @@ const Graph = () => {
 
   return (
     <div className="py-10 min-h-[400px]">
-      <ResponsiveContainer width="100%" aspect={2}>
+      <ResponsiveContainer width="100%" height={400}>
         <ComposedChart
           data={GRAPHVALUE}
           barCategoryGap={16}

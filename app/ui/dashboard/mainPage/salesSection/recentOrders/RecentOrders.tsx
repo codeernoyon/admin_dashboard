@@ -11,9 +11,8 @@ const RecentOrders = () => {
             <span className="capitalize font-semibold text-[17px]">
               Recent Orders
             </span>
-            <div className="py-2 px-5 rounded-md text-teal-500 bg-slate-800 hover:bg-teal-600 hover:text-slate-200 transition-all duration-300 cursor-pointer flex items-center gap-1">
+            <div className="py-2 px-5 rounded-md text-teal-500 bg-slate-800 hover:bg-teal-600 hover:text-slate-200 transition-all duration-300 cursor-pointer flex items-center gap-1 text-sm">
               <TbReportAnalytics />
-
               <span>Generate Report</span>
             </div>
           </div>

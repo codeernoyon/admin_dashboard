@@ -1,10 +1,18 @@
 "use client";
+import { useStateProvider } from "@/context/StateContext";
+import { reducerCase } from "@/context/constants";
 import { SIDEBAR } from "@/data/sideBar";
 import { usePathname, useRouter } from "next/navigation";
 const NavigationLinks = () => {
+  const [{}, dispatch] = useStateProvider();
+
   const path = usePathname();
   const navigation = useRouter();
   const handleNavigation = (pathName: any) => {
+    dispatch({
+      type: reducerCase.SHOW_SIDE_BER,
+      showSideBer: false,
+    });
     if (pathName === "dashboard") {
       navigation.push("/dashboard");
     } else {
