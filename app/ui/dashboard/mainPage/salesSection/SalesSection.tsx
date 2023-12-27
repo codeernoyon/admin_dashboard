@@ -1,3 +1,4 @@
+import RecentOrders from "./recentOrders/RecentOrders";
 import SellingProducts from "./sellingProducts/SellingProducts";
 import StoreVisitsBySource from "./storeVisitsbySource/StoreVisitsbySource";
 import TopSeller from "./topSeller/TopSeller";
@@ -11,6 +12,7 @@ const SalesSection = () => {
       </div>
       <div className="flex gap-5 flex-col xl:flex-row">
         <StoreVisitsBySource />
+        <RecentOrders />
       </div>
     </div>
   );

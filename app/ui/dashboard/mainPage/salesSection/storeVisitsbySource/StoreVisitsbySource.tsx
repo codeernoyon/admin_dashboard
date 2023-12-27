@@ -2,14 +2,7 @@
 import { DATA, storeBy } from "@/data/StoreVisits";
 import { useState } from "react";
 import { FaAngleDown } from "react-icons/fa6";
-import {
-  Cell,
-  Legend,
-  Pie,
-  PieChart,
-  ResponsiveContainer,
-  Tooltip,
-} from "recharts";
+import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 import CardLayout from "../../boxLayout/cardLayout";
 import Popup from "../Popup";
 // custom tooltip for hover cell
@@ -140,10 +133,10 @@ const StoreVisitsBySource = () => {
                   ))}
                 </Pie>
                 <Tooltip content={<CustomTooltip />} />
-                <Legend
+                {/* <Legend
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
-                />
+                /> */}
               </PieChart>
             </ResponsiveContainer>
           </div>
