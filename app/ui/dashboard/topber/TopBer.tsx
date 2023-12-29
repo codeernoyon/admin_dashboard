@@ -1,6 +1,6 @@
 import Button from "@/utils/Button";
 import { CiCirclePlus } from "react-icons/ci";
-import DatePicker from "./DatePicker";
+import DatePicker from "./DatePickerComponent";
 
 const TopBer = () => {
   return (

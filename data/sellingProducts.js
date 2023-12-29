@@ -1,5 +1,6 @@
 export const BESTSELLINGPRODUCTS = [
   {
+    id: 1,
     name: "Branded T-Shirts",
     date: "24 Apr 2021",
     price: 29.0,
@@ -9,6 +10,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-1.png",
   },
   {
+    id: 2,
     name: "Bentwood Chair",
     date: "19 Mar 2021",
     price: 145.2,
@@ -18,6 +20,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-2.png",
   },
   {
+    id: 3,
     name: "Borosil Paper Cup",
     date: "01 Mar 2021",
     price: 87.5,
@@ -27,6 +30,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-3.png",
   },
   {
+    id: 4,
     name: "One Seater Sofa",
     date: "11 Feb 2021",
     price: 58.9,
@@ -36,6 +40,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-4.png",
   },
   {
+    id: 5,
     name: "Stillbird",
     date: "17 Jan 2021",
     price: 76.8,
@@ -45,6 +50,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-5.png",
   },
   {
+    id: 6,
     name: "One Seater Sofa",
     date: "11 Feb 2021",
     price: 58.9,
@@ -54,6 +60,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-4.png",
   },
   {
+    id: 7,
     name: "Bentwood Chair",
     date: "19 Mar 2021",
     price: 145.2,
@@ -63,6 +70,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-2.png",
   },
   {
+    id: 8,
     name: "Branded T-Shirts",
     date: "24 Apr 2021",
     price: 29.0,
@@ -72,6 +80,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-1.png",
   },
   {
+    id: 9,
     name: "Borosil Paper Cup",
     date: "01 Mar 2021",
     price: 87.5,
@@ -81,6 +90,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-3.png",
   },
   {
+    id: 10,
     name: "Bentwood Chair",
     date: "19 Mar 2021",
     price: 145.2,
@@ -90,6 +100,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-2.png",
   },
   {
+    id: 11,
     name: "Borosil Paper Cup",
     date: "01 Mar 2021",
     price: 87.5,
@@ -99,6 +110,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-3.png",
   },
   {
+    id: 12,
     name: "One Seater Sofa",
     date: "11 Feb 2021",
     price: 58.9,
@@ -108,6 +120,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-4.png",
   },
   {
+    id: 13,
     name: "Bentwood Chair",
     date: "19 Mar 2021",
     price: 145.2,
@@ -117,6 +130,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-2.png",
   },
   {
+    id: 14,
     name: "Branded T-Shirts",
     date: "24 Apr 2021",
     price: 29.0,
@@ -126,6 +140,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-1.png",
   },
   {
+    id: 15,
     name: "Borosil Paper Cup",
     date: "01 Mar 2021",
     price: 87.5,
@@ -135,6 +150,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-3.png",
   },
   {
+    id: 16,
     name: "Bentwood Chair",
     date: "19 Mar 2021",
     price: 145.2,
@@ -144,6 +160,7 @@ export const BESTSELLINGPRODUCTS = [
     image: "/product/img-2.png",
   },
   {
+    id: 17,
     name: "Borosil Paper Cup",
     date: "01 Mar 2021",
     price: 87.5,

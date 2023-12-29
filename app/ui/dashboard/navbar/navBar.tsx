@@ -28,11 +28,12 @@ const NavBar = () => {
             <div className="h-1 w-10 bg-mainBg rounded-full"></div>
           </div>
           <span className="uppercase">
-            {path === "/dashboard"
+            {/* {path === "/dashboard"
               ? "dashboard"
               : path.slice(path.indexOf("/") + 1, path.lastIndexOf("/")) +
                 " / " +
-                path.slice(path.lastIndexOf("/") + 1)}
+                path.slice(path.lastIndexOf("/") + 1)} */}
+            Dashboard
           </span>
         </div>
         {/* icons */}

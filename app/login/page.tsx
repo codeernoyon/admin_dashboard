@@ -10,7 +10,7 @@ const Login = () => {
           <h2 className={`text-[35px] font-bold ${righteous.className}`}>
             Dashboard Login
           </h2>
-          <div className="flex justify-center items-center gap-2 px-20 py-2 border border-main_clr rounded-md cursor-pointer mt-10">
+          <div className="flex justify-center items-center gap-2 px-20 py-2 border border-mainBg rounded-md cursor-pointer mt-10">
             <FcGoogle size={30} />
             <span>Login With Google</span>
           </div>

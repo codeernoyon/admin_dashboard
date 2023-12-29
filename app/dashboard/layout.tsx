@@ -1,5 +1,4 @@
 "use client";
-
 import { StateProvider } from "@/context/StateContext";
 import { initialState, reducer } from "@/context/StateReducers";
 import Footer from "../ui/dashboard/footer/footer";

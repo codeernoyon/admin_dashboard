@@ -1,13 +1,20 @@
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { Key } from "react";
 
 const SellingProductTable = ({ data }: any) => {
+  const router = useRouter();
+
+  const handleRouting = (data: any) => {
+    router.push(`dashboard/productDetails/${data?.id}`);
+  };
   return (
     <table className="capitalize w-full ">
       <tbody>
         {data.map(
           (
             item: {
+              id: number;
               image: string;
               name: string;
               date: string;
@@ -18,8 +25,11 @@ const SellingProductTable = ({ data }: any) => {
             },
             index: Key | null | undefined
           ) => (
-            <tr key={index} className="border-t-[1px] border-[#545b5d] ">
-              <td className="py-[5px] flex items-center gap-2 w-[200px] md:fit">
+            <tr key={index} className="border-t-[1px] border-[#545b5d]">
+              <td
+                className="py-[5px] flex items-center gap-2 w-[200px] md:fit cursor-pointer"
+                onClick={() => handleRouting(item)}
+              >
                 <Image
                   src={item?.image}
                   alt="image"

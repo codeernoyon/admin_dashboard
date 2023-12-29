@@ -6,7 +6,9 @@ const GraphDetails = () => {
       {GRAPHDETAILS?.map((item, index) => (
         <div
           key={index}
-          className="flex flex-col w-[50%] xl:w-[25%] flex-warp justify-center items-center py-3 border-dashed border-t-[1px] border-b-[1px] border-r-[1px] border-slate-600"
+          className={`flex flex-col w-[50%] xl:w-[25%] flex-warp justify-center items-center py-3 border-dashed border-t-[1px] border-b-[1px] border-r-[1px] border-slate-600 ${
+            GRAPHDETAILS.length === index + 1 && "border-r-0"
+          }`}
         >
           <span
             className={`text-[20px] font-semibold  ${
