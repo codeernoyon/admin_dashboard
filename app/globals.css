@@ -24,7 +24,7 @@ body {
   box-sizing: border-box;
 }
 ::-webkit-scrollbar {
-  display: none;
+  width: 0;
 }
 .progressBar {
   background-image: linear-gradient(

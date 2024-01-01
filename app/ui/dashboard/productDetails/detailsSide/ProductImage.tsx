@@ -5,7 +5,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const ProductImage = ({ data }: any) => {
   const { image } = data[0];
-  const imageRef = useRef(null);
+  const imageRef = useRef<HTMLDivElement>(null);
   const [currentImage, setCurrentImage] = useState(image);
   const [slideWidth, setSlideWidth] = useState(0);
   const [index, setIndex] = useState(0);
