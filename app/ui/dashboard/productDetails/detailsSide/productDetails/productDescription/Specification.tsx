@@ -3,7 +3,7 @@ const Specification = () => {
     <div>
       <div className="flex flex-col gap-1">
         {/* ---------- */}
-        <div className="border-b border-slate-600">
+        <div className="border-b border-slate-600 flex items-center py-2">
           {/* brand name */}
           <div className="font-semibold w-[50%] xl:w-[30%]">
             <span>Category</span>
@@ -14,7 +14,7 @@ const Specification = () => {
           </div>
         </div>
         {/* ---------- */}
-        <div className="border-b border-slate-600">
+        <div className="border-b border-slate-600 flex items-center py-2">
           {/* brand name */}
           <div className="font-semibold w-[50%] xl:w-[30%]">
             <span>Brand</span>
@@ -25,7 +25,7 @@ const Specification = () => {
           </div>
         </div>
         {/* ---------- */}
-        <div className="border-b border-slate-600">
+        <div className="border-b border-slate-600 flex items-center py-2">
           {/* brand name */}
           <div className="font-semibold w-[50%] xl:w-[30%]">
             <span>Color</span>
@@ -36,7 +36,7 @@ const Specification = () => {
           </div>
         </div>
         {/* ---------- */}
-        <div className="border-b border-slate-600">
+        <div className="border-b border-slate-600 flex items-center py-2">
           {/* brand name */}
           <div className="font-semibold w-[50%] xl:w-[30%]">
             <span>Material</span>
@@ -47,7 +47,7 @@ const Specification = () => {
           </div>
         </div>
         {/* ---------- */}
-        <div className="border-b border-slate-600">
+        <div className="border-b border-slate-600 flex items-center py-2">
           {/* brand name */}
           <div className="font-semibold w-[50%] xl:w-[30%]">
             <span>Weight</span>

@@ -2,6 +2,7 @@ import AboutProduct from "./AboutProduct";
 import Description from "./Description";
 import ProductAmountDetails from "./ProductAmountDetails";
 import ProductVariation from "./ProductVariation";
+import RatingReviews from "./Ratings&Reviews/RatingReviews";
 import ProductDescription from "./productDescription/ProductDescription";
 
 const ProductDetail = ({ data }: any) => {
@@ -12,6 +13,7 @@ const ProductDetail = ({ data }: any) => {
       <ProductVariation />
       <Description />
       <ProductDescription />
+      <RatingReviews />
     </div>
   );
 };
