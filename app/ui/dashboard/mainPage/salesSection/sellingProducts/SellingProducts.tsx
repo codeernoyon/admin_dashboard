@@ -7,7 +7,7 @@ import Pagination from "../Pagination";
 import Popup from "../Popup";
 import SellingProductTable from "./SellingProductTable";
 
-const SellingProducts = () => {
+const SellingProducts = ({ className }: any) => {
   const [store, setStore] = useState("Today");
   const [showPopup, setShowPopup] = useState(false);
   const [number, setNumber] = useState(1);
@@ -24,8 +24,6 @@ const SellingProducts = () => {
   // next pagination
   const nextPagination = () => {
     if (number !== nextPageRange) {
-      console.log("hi");
-
       setNumber(number + 1);
     }
   };
@@ -57,7 +55,7 @@ const SellingProducts = () => {
     },
   ];
   return (
-    <div className="w-full xl:w-[50%] ">
+    <div className={`${className}`}>
       <CardLayout className=" ">
         <div className=" text-slate-300 ">
           <div className="flex flex-col md:flex-row justify-between gap-2 md:items-center px-5 py-5">

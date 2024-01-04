@@ -1,13 +1,20 @@
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { BsBarChartFill } from "react-icons/bs";
 
 const TopSellerTable = ({ data }: any) => {
+  const router = useRouter();
   return (
     <table className="capitalize w-full ">
       <tbody>
         {data.map((item: any, index: any) => (
           <tr key={index} className="border-t-[1px] border-[#545b5d] ">
-            <td className="px-2 flex items-center gap-2 py-2 w-[200px] md:w-fit">
+            <td
+              className="px-2 flex items-center gap-2 py-2 w-[200px] md:w-fit cursor-pointer"
+              onClick={() =>
+                router.push(`dashboard/companyDetails/${item?.id}`)
+              }
+            >
               <Image
                 src={item?.image}
                 alt="image"

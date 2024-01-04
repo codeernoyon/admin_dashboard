@@ -1,5 +1,6 @@
 export const TOPSELLER = [
   {
+    id: 1,
     name: "iTest Factory",
     owner: "Oliver Tyler",
     type: "Bags and Wallets",
@@ -9,6 +10,7 @@ export const TOPSELLER = [
     percentage: 76,
   },
   {
+    id: 2,
     name: "Digitech Galaxy",
     owner: "John Roberts",
     type: "Watches",
@@ -18,6 +20,7 @@ export const TOPSELLER = [
     percentage: 65,
   },
   {
+    id: 3,
     name: "Nesta Technologies",
     owner: "Harley Fuller",
     type: "Bike Accessories",
@@ -27,6 +30,7 @@ export const TOPSELLER = [
     percentage: 57,
   },
   {
+    id: 4,
     name: "Zoetic Fashion",
     owner: "James Bowen",
     type: "Clothes",
@@ -36,6 +40,7 @@ export const TOPSELLER = [
     percentage: 89,
   },
   {
+    id: 5,
     name: "Meta4Systems",
     owner: "Zoe Dennis",
     type: "Furniture",
@@ -45,6 +50,7 @@ export const TOPSELLER = [
     percentage: 44,
   },
   {
+    id: 6,
     name: "Nesta Technologies",
     owner: "Harley Fuller",
     type: "Bike Accessories",
@@ -54,6 +60,7 @@ export const TOPSELLER = [
     percentage: 57,
   },
   {
+    id: 7,
     name: "iTest Factory",
     owner: "Oliver Tyler",
     type: "Bags and Wallets",
@@ -63,6 +70,7 @@ export const TOPSELLER = [
     percentage: 76,
   },
   {
+    id: 8,
     name: "Zoetic Fashion",
     owner: "James Bowen",
     type: "Clothes",
@@ -72,6 +80,7 @@ export const TOPSELLER = [
     percentage: 89,
   },
   {
+    id: 9,
     name: "Digitech Galaxy",
     owner: "John Roberts",
     type: "Watches",
@@ -81,6 +90,7 @@ export const TOPSELLER = [
     percentage: 65,
   },
   {
+    id: 10,
     name: "Zoetic Fashion",
     owner: "James Bowen",
     type: "Clothes",
@@ -90,6 +100,7 @@ export const TOPSELLER = [
     percentage: 89,
   },
   {
+    id: 11,
     name: "iTest Factory",
     owner: "Oliver Tyler",
     type: "Bags and Wallets",
@@ -99,6 +110,7 @@ export const TOPSELLER = [
     percentage: 76,
   },
   {
+    id: 12,
     name: "Digitech Galaxy",
     owner: "John Roberts",
     type: "Watches",
@@ -108,6 +120,7 @@ export const TOPSELLER = [
     percentage: 65,
   },
   {
+    id: 13,
     name: "Nesta Technologies",
     owner: "Harley Fuller",
     type: "Bike Accessories",
@@ -118,6 +131,7 @@ export const TOPSELLER = [
   },
 
   {
+    id: 14,
     name: "Zoetic Fashion",
     owner: "James Bowen",
     type: "Clothes",
@@ -127,6 +141,7 @@ export const TOPSELLER = [
     percentage: 89,
   },
   {
+    id: 15,
     name: "Meta4Systems",
     owner: "Zoe Dennis",
     type: "Furniture",

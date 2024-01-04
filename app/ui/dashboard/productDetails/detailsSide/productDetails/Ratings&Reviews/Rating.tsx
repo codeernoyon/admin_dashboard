@@ -1,9 +1,9 @@
 import { RATING } from "@/data/Ratings&Reviews";
 import { IoMdStar } from "react-icons/io";
 import { IoStarHalfOutline } from "react-icons/io5";
-const Rating = () => {
+const Rating = ({ className }: any) => {
   return (
-    <div className="xl:w-[35%] mt-6">
+    <div className={`${className}`}>
       {/* stars */}
       <div>
         {/* stars */}

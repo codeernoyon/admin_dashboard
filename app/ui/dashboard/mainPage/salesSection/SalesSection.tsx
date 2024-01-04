@@ -7,7 +7,7 @@ const SalesSection = () => {
   return (
     <div className="mt-10 flex gap-5 flex-col">
       <div className="flex gap-5 flex-col xl:flex-row">
-        <SellingProducts />
+        <SellingProducts className="w-full xl:w-[50%]" />
         <TopSeller />
       </div>
       <div className="flex gap-5 flex-col xl:flex-row">

@@ -123,13 +123,11 @@ const StoreVisitsBySource = () => {
                   label={renderCustomizedLabel}
                 >
                   {DATA.map((entry, index) => (
-                    <>
-                      <Cell
-                        key={`cell-${index}`}
-                        strokeWidth={0}
-                        fill={entry.color}
-                      />
-                    </>
+                    <Cell
+                      key={`cell-${index}`}
+                      strokeWidth={0}
+                      fill={entry.color}
+                    />
                   ))}
                 </Pie>
                 <Tooltip content={<CustomTooltip />} />

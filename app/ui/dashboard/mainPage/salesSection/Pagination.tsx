@@ -26,7 +26,7 @@ const Pagination = ({
         <div className="flex gap-2">
           {pagesNumber.map((index: number) => (
             <span
-              key={index}
+              key={index * Math.random()}
               className={`h-9 w-7 rounded-md cursor-pointer border border-slate-600 flex justify-center items-center hover:bg-mainBg hover:text-slate-200 transition-all duration-300 ${
                 index === number && "bg-mainBg text-slate-200"
               }`}

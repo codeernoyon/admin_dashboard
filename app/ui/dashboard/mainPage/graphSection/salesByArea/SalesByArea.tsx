@@ -17,7 +17,7 @@ const SalesByArea = () => {
         <div className="h-full w-full relative ">
           <div className=" mt-32 xl:mt-0 xl:absolute bottom-28 flex flex-col gap-3 w-full px-5">
             {SALESBYLOCATION.map((item, index) => (
-              <div key={index}>
+              <div key={index * Math.random()}>
                 <div className="flex items-center justify-between">
                   <span>{item.title}</span> <span>{item.percentage}%</span>
                 </div>

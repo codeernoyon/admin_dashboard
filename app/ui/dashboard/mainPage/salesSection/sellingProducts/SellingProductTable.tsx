@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { Key } from "react";
 
 const SellingProductTable = ({ data }: any) => {
   const router = useRouter();
@@ -23,9 +22,12 @@ const SellingProductTable = ({ data }: any) => {
               stock: number;
               amount: number;
             },
-            index: Key | null | undefined
+            index: number
           ) => (
-            <tr key={index} className="border-t-[1px] border-[#545b5d]">
+            <tr
+              key={index * Math.random()}
+              className="border-t-[1px] border-[#545b5d]"
+            >
               <td
                 className="py-[5px] flex items-center gap-2 w-[200px] md:fit cursor-pointer"
                 onClick={() => handleRouting(item)}

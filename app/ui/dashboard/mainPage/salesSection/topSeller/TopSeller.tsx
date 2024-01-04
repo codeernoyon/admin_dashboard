@@ -24,8 +24,6 @@ const TopSeller = () => {
   // next pagination
   const nextPagination = () => {
     if (number !== nextPageRange) {
-      console.log("hi");
-
       setNumber(number + 1);
     }
   };
