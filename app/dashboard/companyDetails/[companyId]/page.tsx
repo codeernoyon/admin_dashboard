@@ -13,7 +13,7 @@ const CompanyDetails = ({ params }: any) => {
       <div className="w-full border-y border-slate-600 py-2 px-5 capitalize font-semibold">
         <h2>product details</h2>
       </div>
-      <div className="h-full w-full p-5 flex gap-5 flex-col">
+      <div className="h-full w-full p-5 flex gap-5 flex-col xl:flex-row">
         <div className="xl:max-w-[330px]">
           <CardLayout>
             <CompanyInfo data={product} />
